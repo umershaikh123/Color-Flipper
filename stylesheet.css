@@ -1,0 +1,140 @@
+* {
+ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+    
+    }
+   
+   
+    html { 
+     
+       font-size: 18px;
+       font-family: var(--ff-secondary);
+   
+    }
+   
+   
+    body {
+        position: relative;
+        background-color: rgb(255, 255, 255); 
+        width: 100%;
+      }
+   
+   
+    
+nav {
+    flex: auto;    
+    width: 100%;
+    background-color: #000000cc;
+    box-shadow: 0 2px 9px 0  #20292879;
+}
+
+:root {
+    
+    --ff-primary: "Roboto", sans-serif;
+    --ff-secondary: "Open Sans", sans-serif;
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    
+  }
+
+   .container {        
+    
+    display: flex;
+    justify-content: space-between;
+    width: var(--general-width);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem;
+                     
+   }
+
+   .container ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+   .container li {
+       list-style: none;             
+   }
+
+   .container li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0.4rem;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+ 
+#color-flipper{
+    font-style: bold;
+    font-size: 24px;
+    max-width: max-content;
+    color: rgb(69, 147, 211);
+}
+
+
+main {
+   
+    color: white;
+    padding: 2rem;
+}
+
+.background-box{
+    height: 60vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-box h2 {
+    background-color: #000000cc;
+   
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+.color {
+    color: rgb(69, 147, 211);
+}
+.btn-container {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container button {
+    padding: 0.65rem 1.15rem;
+    margin: 20px;
+    font-size: 1rem;
+    background: transparent;
+    text-transform: uppercase;
+    font-family: var(--ff-primary);
+    font-weight: 700;
+    border: 2px solid #000000cc;
+    border-radius: 10px;
+    background-color: #ffffff79;
+    color: #000000cc;
+    letter-spacing: var(--spacing);
+    transition: var(--transition);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+   
+.btn-container button:hover {
+    color: white;
+    background: #000000cc;
+  }
+
+
+   
+
+    
+ 
